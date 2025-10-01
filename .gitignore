@@ -1,3 +1,23 @@
+# entornos y cachés
+.env
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# SO y editores
+.DS_Store
+Thumbs.db
+.vscode/
+
+# si generas exportes o imágenes locales
+*.csv.zip
+*.parquet
+*.tmp
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
